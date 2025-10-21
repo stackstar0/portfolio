@@ -48,7 +48,7 @@ const Hero = () => {
                 Computer Science & GIS Student
               </h2>
               <p className="text-xl text-muted-foreground">
-                Full Stack Developer | Blockchain Enthusiast | AI Explorer
+                Full Stack Developer | Cyber Security Enthusiast | AI Explorer
               </p>
             </div>
 
