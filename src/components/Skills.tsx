@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
-import { 
-  Code2, 
-  Database, 
-  Blocks, 
-  Brain, 
-  Globe, 
+import {
+  Code2,
+  Database,
+  Blocks,
+  Brain,
+  Globe,
   Shield,
   Palette,
   Terminal
@@ -67,9 +67,15 @@ const Skills = () => {
     { name: "JavaScript", level: 90 },
     { name: "TypeScript", level: 80 },
     { name: "Solidity", level: 75 },
-    { name: "Java", level: 70 },
-    { name: "C", level: 65 }
+    { name: "Java", level: 85 },
+    { name: "C", level: 75 },
+    { name: "SQL", level: 80 },
+    { name: "HTML", level: 95 },
+    { name: "CSS", level: 90 },
+    { name: "Bash/Shell", level: 70 },
+    { name: "C++", level: 70 }
   ];
+
 
   return (
     <section id="skills" className="py-20 relative overflow-hidden">
@@ -94,7 +100,7 @@ const Skills = () => {
             {skillCategories.map((category, index) => {
               const Icon = category.icon;
               return (
-                <Card 
+                <Card
                   key={index}
                   className="p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 group animate-scale-in border-2 border-border/50"
                   style={{ animationDelay: `${index * 0.05}s` }}
@@ -127,7 +133,7 @@ const Skills = () => {
             <h3 className="text-2xl font-semibold mb-8 text-center">Programming Languages</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {languages.map((lang, index) => (
-                <div 
+                <div
                   key={index}
                   className="animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
