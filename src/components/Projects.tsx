@@ -8,14 +8,14 @@ const Projects = () => {
       title: "Government Services Portal – Janaseva",
       description: "Full-stack web application for Aadhaar, PAN, Voter ID, Income/Caste certificates, and Xerox services with comprehensive admin dashboard",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-      github: "https://github.com/stackswift",
+      github: "https://github.com/stackswift/janaseva",
       category: "Full Stack"
     },
     {
       title: "E-Commerce Website Template",
       description: "Custom Aranoz template with responsive design, secure login modal, shopping cart, and modern UI/UX focusing on user experience",
       tech: ["React", "HTML5", "CSS3", "JavaScript", "UI/UX"],
-      github: "https://github.com/stackswift/react-based-web-program",
+      github: "https://github.com/stackswift",
       category: "Frontend"
     },
     {
