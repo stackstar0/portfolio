@@ -58,6 +58,12 @@ const Certifications = () => {
       category: "Cloud"
     },
     {
+      title: "EKAIVA Hackathon",
+      issuer: "Agamya Cyber Tech",
+      date: "2025",
+      category: "Cybersecurity,AI and blockchain"
+    },
+    {
       title: "Tata Consultancy Services Cybersecurity Virtual Internship ",
       issuer: "TCS",
       date: "2025",
