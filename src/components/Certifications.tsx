@@ -58,6 +58,18 @@ const Certifications = () => {
       category: "Cloud"
     },
     {
+      title: "Tata Consultancy Services Cybersecurity Virtual Internship ",
+      issuer: "TCS",
+      date: "2025",
+      category: "cybersecurity"
+    },
+    {
+      title: "Cybersecurity Virtual Experience Program",
+      issuer: "Forage",
+      date: "2025",
+      category: "cybersecurity"
+    },
+    {
       title: "NVIDIA Deep Learning Institute",
       issuer: "NVIDIA",
       date: "2025",
@@ -95,7 +107,7 @@ const Certifications = () => {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
             {stats.map((stat, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="p-6 text-center hover:shadow-soft transition-all hover:-translate-y-1 animate-scale-in border-2 border-border/50"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -127,7 +139,7 @@ const Certifications = () => {
           {/* Certifications Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {certifications.map((cert, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 group animate-scale-in border-2 border-border/50"
                 style={{ animationDelay: `${index * 0.03}s` }}
@@ -140,13 +152,13 @@ const Certifications = () => {
                     {cert.category}
                   </span>
                 </div>
-                
+
                 <h3 className="font-semibold mb-2 group-hover:text-primary transition-colors">
                   {cert.title}
                 </h3>
-                
+
                 <p className="text-sm text-muted-foreground mb-3">{cert.issuer}</p>
-                
+
                 <div className="flex items-center gap-2 text-xs text-muted-foreground">
                   <Calendar className="w-3 h-3" />
                   {cert.date}
