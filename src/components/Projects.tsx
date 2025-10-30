@@ -44,6 +44,18 @@ const Projects = () => {
       description: "DotWeb Project – Designed a fully responsive multipage website featuring dynamic navigation menus, hero carousel, animated UI sections, service cards, pricing modules, contact forms, and interactive user experience with WOW.js and custom JavaScript.",
       tech: ["Node.js", "Express", "MongoDB", "REST API"],
       category: "Backend"
+    },
+    {
+      title: "Vibe-Commerce",
+      description: "Vibe-Commerce Project – Designed a fully responsive multipage website featuring dynamic navigation menus, hero carousel, animated UI sections, service cards, pricing modules, contact forms, and interactive user experience with WOW.js and custom JavaScript.",
+      tech: ["Node.js", "Express", "MongoDB", "REST API"],
+      category: "Full Stack"
+    },
+    {
+      title: "Bookit E-Commerce",
+      description: "Bookit E-Commerce Project – Designed a fully responsive multipage website featuring dynamic navigation menus, hero carousel, animated UI sections, service cards, pricing modules, contact forms, and interactive user experience with WOW.js and custom JavaScript.",
+      tech: ["Node.js", "Express", "MongoDB", "REST API"],
+      category: "Full Stack"
     }
   ];
 
