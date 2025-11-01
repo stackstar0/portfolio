@@ -75,12 +75,6 @@ const Certifications = () => {
       date: "2025",
       category: "cybersecurity"
     },
-    {
-      title: "NVIDIA Deep Learning Institute",
-      issuer: "NVIDIA",
-      date: "2025",
-      category: "AI/ML"
-    }
   ];
 
   const stats = [

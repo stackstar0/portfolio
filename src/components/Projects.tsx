@@ -19,11 +19,11 @@ const Projects = () => {
       category: "Frontend"
     },
     {
-      title: "Food Ordering Application",
-      description: "MERN stack application featuring Stripe payment integration, real-time order tracking, and user authentication system",
+      title: "Qual-connect",
+      description: "Qual-Connect is a web-based Supplier Query Module designed to simplify communication between QA teams and suppliers. It streamlines query management, enhances collaboration, and improves response times through an intuitive interface and robust backend.",
       tech: ["MongoDB", "Express", "React", "Node.js", "Stripe"],
-      github: "https://github.com/stackstar0",
-      category: "Full Stack"
+      github: "https://github.com/stackswift/qual-connect",
+      category: "Frontend"
     },
     {
       title: "Affinidi capstone",
@@ -33,11 +33,11 @@ const Projects = () => {
       category: "Blockchain"
     },
     {
-      title: "COVID-19 Sentiment Analysis",
-      description: "Machine learning project analyzing social media sentiment during COVID-19 pandemic (2020-2021) using NLP and data visualization",
-      tech: ["Python", "Jupyter", "Pandas", "NLP", "Data Analysis"],
-      github: "https://github.com/stackswift/sentiment-analysis-for-covid-19-from-2020-2021",
-      category: "AI/Data Science"
+      title: "Shop with Affinidi",
+      description: "“Developed a Web3 e-commerce platform integrating Affinidi’s decentralized login and verifiable credentials for privacy-first shopping.",
+      tech: ["Solidity, Ethereum, React, Web3.js, IPFS."],
+      github: "https://github.com/stackswift/shopwithaffindi",
+      category: "Full Stack and Blockchain"
     },
     {
       title: "DotWeb Multipage Website",
