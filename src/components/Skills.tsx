@@ -40,25 +40,25 @@ const Skills = () => {
       title: "AI & Data Science",
       icon: Brain,
       color: "text-secondary",
-      skills: ["Neural Networks", "Sentiment Analysis", "Python", "MATLAB", "Data Preprocessing", "RAG Systems"]
+      skills: ["Neural Networks", "Sentiment Analysis", "Python", "MATLAB", "Data Preprocessing"]
     },
     {
       title: "GIS & Spatial Analysis",
       icon: Globe,
       color: "text-accent",
-      skills: ["Spatial Data", "Georeferencing", "Raster/Vector Analysis", "Map Visualization", "Data Collection"]
+      skills: ["Spatial Data", "Georeferencing", "Digitization", "Raster/Vector Analysis", "Map Visualization", "Data Collection"]
     },
     {
       title: "DevOps & Tools",
       icon: Palette,
       color: "text-primary",
-      skills: ["Git", "GitHub", "VS Code", "Linux", "Docker", "Web Scraping"]
+      skills: ["Git", "GitHub", "VS Code", "Linux", "Docker"]
     },
     {
       title: "Security & Testing",
       icon: Shield,
       color: "text-secondary",
-      skills: ["Cybersecurity", "Bug Bounty", "Web Security Testing", "Network Security", "Penetration Testing"]
+      skills: ["Cybersecurity", "Bug Bounty", "Web Security Testing", "Network Security"]
     }
   ];
 
@@ -66,7 +66,6 @@ const Skills = () => {
     { name: "Python", level: 85 },
     { name: "JavaScript", level: 90 },
     { name: "TypeScript", level: 80 },
-    { name: "Solidity", level: 75 },
     { name: "Java", level: 85 },
     { name: "C", level: 75 },
     { name: "SQL", level: 80 },
