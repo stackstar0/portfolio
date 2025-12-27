@@ -34,13 +34,13 @@ const Skills = () => {
       title: "Blockchain & Web3",
       icon: Blocks,
       color: "text-primary",
-      skills: ["Solidity", "Rust", "Smart Contracts", "Sui", "zkEVM", "ZetaChain", "Aptos", "NFT dApps", "Omnichain"]
+      skills: ["Solidity Basics", "Smart Contracts (Guided)", "Sui", "ZetaChain", "Aptos", "NFT dApps"]
     },
     {
       title: "AI & Data Science",
       icon: Brain,
       color: "text-secondary",
-      skills: ["Neural Networks", "Sentiment Analysis", "Python", "MATLAB", "Data Preprocessing"]
+      skills: ["ML Concepts", "Sentiment Analysis", "Python", "MATLAB", "Data Preprocessing"]
     },
     {
       title: "GIS & Spatial Analysis",
@@ -58,7 +58,7 @@ const Skills = () => {
       title: "Security & Testing",
       icon: Shield,
       color: "text-secondary",
-      skills: ["Cybersecurity", "Bug Bounty", "Web Security Testing", "Network Security"]
+      skills: ["Cybersecurity Fundamentals", "Basic Web Security", "Network Security Basics"]
     }
   ];
 

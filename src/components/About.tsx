@@ -59,8 +59,8 @@ const About = () => {
                 </p>
                 <p>
                   With hands-on experience in <span className="text-secondary font-medium">React, Node.js, MongoDB</span>, and emerging 
-                  technologies like <span className="text-accent font-medium">Solidity, Rust, and AI/ML frameworks</span>, I'm passionate 
-                  about creating impactful solutions that solve real-world problems.
+                  technologies like <span className="text-accent font-medium">Solidity, and AI/ML frameworks</span>, I'm passionate 
+                  about exploring impactful solutions that solve real-world problems.
                 </p>
               </div>
             </div>
@@ -96,8 +96,8 @@ const About = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { label: "Full Stack Development", value: "React, Node.js, MongoDB" },
-                { label: "Blockchain & Web3", value: "Solidity, Rust, Smart Contracts" },
-                { label: "AI & Data Science", value: "Neural Networks, ML Models" },
+                { label: "Web3 Concepts", value: "Solidity Basics, Smart Contracts" },
+                { label: "AI Fundamentals", value: "ML Concepts, Python Data Science" },
                 { label: "GIS & Spatial Analysis", value: "Geospatial Data, Mapping" }
               ].map((item, index) => (
                 <div 
