@@ -26,18 +26,18 @@ const Projects = () => {
       category: "Frontend"
     },
     {
-      title: "Affinidi capstone",
-      description: "Decentralized Developed a secure digital identity management system using blockchain principles to ensure user data privacy and authentication integrity. for minting and trading NFTs, built on Ethereum with Solidity smart contracts and Web3 integration",
+      title: "Affinidi Capstone Project",
+      description: "Developed a digital identity management prototype using blockchain principles to explore user data privacy and authentication integrity. Built on Ethereum with Solidity smart contracts and Web3 integration.",
       tech: ["Solidity", "Ethereum", "React", "Web3.js", "IPFS"],
       github: "https://github.com/stackswift",
-      category: "Blockchain"
+      category: "Blockchain Learning"
     },
     {
       title: "Shop with Affinidi",
-      description: "“Developed a Web3 e-commerce platform integrating Affinidi’s decentralized login and verifiable credentials for privacy-first shopping.",
-      tech: ["Solidity, Ethereum, React, Web3.js, IPFS."],
+      description: "Developed a Web3 e-commerce prototype integrating Affinidi’s decentralized login and verifiable credentials for privacy-first shopping.",
+      tech: ["Solidity", "Ethereum", "React", "Web3.js", "IPFS"],
       github: "https://github.com/stackswift/shopwithaffindi",
-      category: "Full Stack and Blockchain"
+      category: "Web3 Prototype"
     },
     {
       title: "DotWeb Multipage Website",
@@ -62,11 +62,11 @@ const Projects = () => {
   ];
 
   const blockchainQuests = [
-    "Built Omnichain contracts with ZetaChain for cross-chain communication",
-    "Developed zkPass integration for privacy-preserving authentication",
-    "Created programmable wallets on Sui blockchain with Move language",
-    "Implemented NFT marketplaces on multiple chains (Ethereum, Aptos, Arbitrum)",
-    "Built staking contracts with reward distribution mechanisms"
+    "Explored Omnichain contracts with ZetaChain",
+    "Learned zkPass integration for privacy-preserving authentication",
+    "Experimented with programmable wallets on Sui blockchain",
+    "Built simple NFT marketplace prototypes on multiple chains",
+    "Studied staking contracts and reward mechanisms"
   ];
 
   return (
@@ -136,7 +136,7 @@ const Projects = () => {
           {/* Blockchain Achievements */}
           <Card className="p-8 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 border-2 border-primary/20">
             <h3 className="text-2xl font-semibold mb-6 text-center">
-              Blockchain & Web3 Achievements
+              Blockchain Learning Journey
             </h3>
             <p className="text-center text-muted-foreground mb-8">
               Completed 20+ StackUp quests involving smart contract development and blockchain integration

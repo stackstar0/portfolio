@@ -50,16 +50,16 @@ const About = () => {
               <h3 className="text-2xl font-semibold">My Journey</h3>
               <div className="prose prose-lg text-muted-foreground space-y-4">
                 <p>
-                  I'm a final-year B.Sc student specializing in <span className="text-primary font-medium">Computer Science and Geoinformatics</span>, 
+                  I'm a final-year B.Sc student specializing in <span className="text-primary font-medium">Computer Science and Geoinformatics</span>,
                   building a unique skillset that bridges software development with spatial data analysis.
                 </p>
                 <p>
-                  My journey encompasses a wide spectrum of modern technologies—from building full-stack web applications 
-                  to developing smart contracts on blockchain platforms, from training neural networks to analyzing spatial data patterns.
+                  My journey encompasses a wide spectrum of modern technologies—from building full-stack web applications
+                  to exploring smart contracts on blockchain platforms, from studying neural networks to analyzing spatial data patterns.
                 </p>
                 <p>
-                  With hands-on experience in <span className="text-secondary font-medium">React, Node.js, MongoDB</span>, and emerging 
-                  technologies like <span className="text-accent font-medium">Solidity, and AI/ML frameworks</span>, I'm passionate 
+                  With hands-on experience in <span className="text-secondary font-medium">React, Node.js, MongoDB</span>, and emerging
+                  technologies like <span className="text-accent font-medium">Solidity, and AI/ML frameworks</span>, I'm passionate
                   about exploring impactful solutions that solve real-world problems.
                 </p>
               </div>
@@ -70,7 +70,7 @@ const About = () => {
               {highlights.map((highlight, index) => {
                 const Icon = highlight.icon;
                 return (
-                  <Card 
+                  <Card
                     key={index}
                     className="p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 animate-scale-in border-2 border-border/50"
                     style={{ animationDelay: `${index * 0.1}s` }}
@@ -100,8 +100,8 @@ const About = () => {
                 { label: "AI Fundamentals", value: "ML Concepts, Python Data Science" },
                 { label: "GIS & Spatial Analysis", value: "Geospatial Data, Mapping" }
               ].map((item, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="text-center space-y-2 animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >

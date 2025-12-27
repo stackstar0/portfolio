@@ -16,10 +16,10 @@ const Certifications = () => {
       category: "Cloud"
     },
     {
-      title: "Deloitte Virtual Internship",
-      issuer: "Deloitte",
+      title: "Deloitte Technology Consulting Virtual Experience",
+      issuer: "Deloitte (Forage)",
       date: "Aug 2025",
-      category: "Professional"
+      category: "Professional Simulation"
     },
     {
       title: "Python for Data Science",
@@ -28,10 +28,10 @@ const Certifications = () => {
       category: "Data Science"
     },
     {
-      title: "Bug Bounty Hunting & Web Security Testing",
+      title: "Bug Bounty & Web Security Course",
       issuer: "Udemy",
       date: "Dec 2023",
-      category: "Security"
+      category: "Security Learning"
     },
     {
       title: "Complete Python Bootcamp: Zero to Hero",
@@ -64,16 +64,16 @@ const Certifications = () => {
       category: "Cybersecurity,AI and blockchain"
     },
     {
-      title: "Tata Consultancy Services Cybersecurity Virtual Internship ",
-      issuer: "TCS",
+      title: "TCS Cybersecurity Virtual Experience",
+      issuer: "TCS (Forage)",
       date: "2025",
-      category: "cybersecurity"
+      category: "Cybersecurity Simulation"
     },
     {
-      title: "Cybersecurity Virtual Experience Program",
+      title: "Cybersecurity Virtual Experience",
       issuer: "Forage",
       date: "2025",
-      category: "cybersecurity"
+      category: "Cybersecurity Simulation"
     },
   ];
 
