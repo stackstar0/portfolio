@@ -120,7 +120,7 @@ const Contact = () => {
             <div className="max-w-2xl mx-auto space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold">Ready to start a project?</h3>
               <p className="text-muted-foreground">
-                Whether it's full-stack development, blockchain solutions, or AI/ML projects, I'm always excited to collaborate on innovative ideas!
+                Whether it's full-stack development, MERN Stack, or AI/ML projects, I'm always excited to collaborate on innovative ideas!
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

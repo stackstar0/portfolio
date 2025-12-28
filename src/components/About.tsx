@@ -55,11 +55,11 @@ const About = () => {
                 </p>
                 <p>
                   My journey encompasses a wide spectrum of modern technologies—from building full-stack web applications
-                  to exploring smart contracts on blockchain platforms, from studying neural networks to analyzing spatial data patterns.
+                  to building scalable applications, from studying neural networks to analyzing spatial data patterns.
                 </p>
                 <p>
                   With hands-on experience in <span className="text-secondary font-medium">React, Node.js, MongoDB</span>, and emerging
-                  technologies like <span className="text-accent font-medium">Solidity, and AI/ML frameworks</span>, I'm passionate
+                  technologies like <span className="text-accent font-medium">AI/ML frameworks</span>, I'm passionate
                   about exploring impactful solutions that solve real-world problems.
                 </p>
               </div>
@@ -96,7 +96,6 @@ const About = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { label: "Full Stack Development", value: "React, Node.js, MongoDB" },
-                { label: "Web3 Concepts", value: "Solidity Basics, Smart Contracts" },
                 { label: "AI Fundamentals", value: "ML Concepts, Python Data Science" },
                 { label: "GIS & Spatial Analysis", value: "Geospatial Data, Mapping" }
               ].map((item, index) => (

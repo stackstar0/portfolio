@@ -61,7 +61,7 @@ const Certifications = () => {
       title: "EKAIVA Hackathon",
       issuer: "Agamya Cyber Tech",
       date: "2025",
-      category: "Cybersecurity,AI and blockchain"
+      category: "Cybersecurity,AI"
     },
     {
       title: "TCS Cybersecurity Virtual Experience",
@@ -78,7 +78,7 @@ const Certifications = () => {
   ];
 
   const stats = [
-    { label: "Total Certifications", value: "70+", suffix: "hours" },
+    { label: "Training Hours", value: "70+", suffix: "hours" },
     { label: "Platforms", value: "10+", suffix: "providers" },
     { label: "Focus Areas", value: "6", suffix: "domains" },
     { label: "Latest Cert", value: "2025", suffix: "ongoing" }

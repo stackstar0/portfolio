@@ -30,17 +30,12 @@ const Skills = () => {
       color: "text-accent",
       skills: ["MongoDB", "MongoDB Atlas", "MySQL", "DBMS", "Data Modeling"]
     },
-    {
-      title: "Blockchain & Web3",
-      icon: Blocks,
-      color: "text-primary",
-      skills: ["Solidity Basics", "Smart Contracts (Guided)", "Sui", "ZetaChain", "Aptos", "NFT dApps"]
-    },
+
     {
       title: "AI & Data Science",
       icon: Brain,
       color: "text-secondary",
-      skills: ["ML Concepts", "Sentiment Analysis", "Python", "MATLAB", "Data Preprocessing"]
+      skills: ["ML Concepts", "Python Data Science", "Data Preprocessing"]
     },
     {
       title: "GIS & Spatial Analysis",
@@ -62,18 +57,6 @@ const Skills = () => {
     }
   ];
 
-  const languages = [
-    { name: "Python", level: 85 },
-    { name: "JavaScript", level: 90 },
-    { name: "TypeScript", level: 80 },
-    { name: "Java", level: 85 },
-    { name: "C", level: 75 },
-    { name: "SQL", level: 80 },
-    { name: "HTML", level: 95 },
-    { name: "CSS", level: 90 },
-    { name: "Bash/Shell", level: 70 },
-    { name: "C++", level: 70 }
-  ];
 
 
   return (
@@ -90,7 +73,7 @@ const Skills = () => {
               Technical <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Skills</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A diverse toolkit spanning full-stack development, blockchain, AI, and spatial technologies
+              A diverse toolkit spanning full-stack development, MERN Stack, AI, and spatial technologies
             </p>
           </div>
 
@@ -127,33 +110,10 @@ const Skills = () => {
             })}
           </div>
 
-          {/* Programming Languages Proficiency */}
-          <Card className="p-8 bg-gradient-to-br from-card to-muted/20 border-2 border-primary/20">
-            <h3 className="text-2xl font-semibold mb-8 text-center">Programming Languages</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {languages.map((lang, index) => (
-                <div
-                  key={index}
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{lang.name}</span>
-                    <span className="text-muted-foreground">{lang.level}%</span>
-                  </div>
-                  <div className="h-2 bg-muted rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-gradient-to-r from-primary to-secondary rounded-full transition-all duration-1000 ease-out"
-                      style={{ width: `${lang.level}%` }}
-                    ></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Card>
+
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
