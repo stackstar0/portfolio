@@ -10,6 +10,12 @@ const Certifications = () => {
       category: "Full Stack"
     },
     {
+      title: "Fullstack Development Using MERN Stack",
+      issuer: "Inspira Technologies",
+      date: "Nov-Dec 2025",
+      category: "Fullstack development"
+    },
+    {
       title: "AWS Cloud Practitioner",
       issuer: "AWS Labs",
       date: "Aug 2025",
